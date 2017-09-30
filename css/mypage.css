@@ -1,0 +1,21 @@
+a{
+    color:hotpink;
+    text-decoration: none;
+    background-color:beige;
+    margin-right: 50px;
+}
+i{
+	font-size: 40px;
+}
+img{
+    margin-right: 12px;
+}
+#fei{
+	font-size: 20px;
+}
+#picture{
+	background-color: #f31b63;
+}
+a:hover{
+	background-color: blue;
+}
