@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
-</body>
+	<head>
+	    <meta charset="UTF-8"/>
+	    <title>月落乌啼霜满天</title>
+        <link href='css/mypage.css' rel="stylesheet">
+
+	</head>	
+	<body>
+        <h1 align="center">江枫渔火对愁眠</h1>
+
+        <a href="http://www.bilibili.com" target="_blank">bilibili</a>
+		<a href="http://music.163.com/" target="_blank">网易云音乐</a>
+		<a href = "game.html" target = "_blank">game page</a>
+		<hr/>
+		<script>
+			document.write('<h2>hello world</h2>');
+		</script>
+        <div id='picture'>
+	        <p id='fei'>this is <i>faye</i></p>
+	        <div>
+				<img src="images/faye_cominghome.jpg" alt='wangfei' >
+				<img src="images/faye_yanchanghui.jpg" width="200px" alt='wangfei' >
+				<img src="images/faye_young.jpg" height="272px" alt='wangfei' >
+				<img src="images/faye_style.jpg" height="312px" alt='wangfei' >
+			</div>
+			
+		</div>
+		<input type="text" >
+		<canvas id = "c" width = "400" height = "400"></canvas>
+		<script>
+			var c = document.querySelector("#c");
+			var ctx = c.getContext("2d");
+			
+			
+			//ctx.fillRect(50,50,5,5);
+			ctx.font = "36pt impact";
+			ctx.textAlign = "center";
+
+			ctx.fillStyle = "white";
+			ctx.fillText("CANVAS MEMES!",c.width/2,40);
+			ctx.strokeStyle = "back";
+			ctx.lineWidth = 3;
+			ctx.strokeText("CANVAS MEMES!",c.width/2,40);
+			var xiangyu = new Image();
+
+			xiangyu.onload = function(){
+				console.log("loaded image");
+				ctx.drawImage(xiangyu,0,0);
+			}
+			
+			xiangyu.src = "https://img3.doubanio.com/view/photo/photo/public/p2357348812.webp";
+
+
+		</script>
+	</body>
 </html>
