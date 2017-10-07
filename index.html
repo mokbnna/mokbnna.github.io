@@ -8,11 +8,8 @@
 	</head>	
 	<body>
         <h1 align="center">江枫渔火对愁眠</h1>
-		<a href = "game.html" target = "_blank">game page</a>
+		<a href = "game.html" target = "_blank">play a game</a>
 		<hr/>
-		<script>
-			document.write('<h2>hello world</h2>');
-		</script>
         <div id='picture'>
 	        <div>
 				<img src="images/faye_cominghome.jpg" alt='wangfei' >
@@ -22,32 +19,5 @@
 			</div>
 			
 		</div>
-		<input type="text" >
-		<canvas id = "c" width = "400" height = "400"></canvas>
-		<script>
-			var c = document.querySelector("#c");
-			var ctx = c.getContext("2d");
-			
-			
-			//ctx.fillRect(50,50,5,5);
-			ctx.font = "36pt impact";
-			ctx.textAlign = "center";
-
-			ctx.fillStyle = "white";
-			ctx.fillText("CANVAS MEMES!",c.width/2,40);
-			ctx.strokeStyle = "back";
-			ctx.lineWidth = 3;
-			ctx.strokeText("CANVAS MEMES!",c.width/2,40);
-			var xiangyu = new Image();
-
-			xiangyu.onload = function(){
-				console.log("loaded image");
-				ctx.drawImage(xiangyu,0,0);
-			}
-			
-			xiangyu.src = "https://img3.doubanio.com/view/photo/photo/public/p2357348812.webp";
-
-
-		</script>
 	</body>
 </html>
