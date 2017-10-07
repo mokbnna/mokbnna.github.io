@@ -1,7 +1,13 @@
+.clearfix::after{
+    content: '.';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
 a{
     color:hotpink;
     text-decoration: none;
-    background-color:beige;
     margin-right: 50px;
 }
 i{
@@ -9,13 +15,23 @@ i{
 }
 img{
     margin-right: 12px;
-}
-#fei{
-	font-size: 20px;
+    width: 250px;
 }
 #picture{
-	background-color: #f31b63;
+    background-color: #f31b63;
 }
 a:hover{
-	background-color: blue;
+	background-color:beige;
+}
+.pics{
+    float: left;
+}
+@media (max-width:600px){
+    .pics{
+        float:none;
+    }
+    img{
+        width: 100%;
+    }
+    
 }
