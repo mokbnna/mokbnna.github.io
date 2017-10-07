@@ -20,11 +20,19 @@ img{
 #picture{
     background-color: #f31b63;
 }
+nav{
+    width: 100%;
+}
 a:hover{
 	background-color:beige;
 }
 .pics{
     float: left;
+}
+.navFixed{
+    position: fixed;
+    top:0;
+    background-color: white;
 }
 @media all and (max-width:1000px){
     .pics{
