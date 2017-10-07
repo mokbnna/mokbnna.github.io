@@ -26,12 +26,15 @@ a:hover{
 .pics{
     float: left;
 }
-@media all and (max-width:1200px){
+@media all and (max-width:1000px){
     .pics{
         float:none;
     }
     img{
         width: 100%;
+    }
+    a{
+        font-size: 20px;
     }
     
 }
