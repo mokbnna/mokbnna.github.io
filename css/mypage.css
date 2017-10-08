@@ -5,6 +5,9 @@
     clear: both;
     height: 0;
 }
+.nav1{
+    display: none;
+}
 a{
     color:hotpink;
     text-decoration: none;

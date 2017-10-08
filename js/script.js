@@ -1,6 +1,6 @@
 //滚动高度侦测
 $(document).ready(function(){
-    var navOffset = $('nav').offset();//在文档中的高度
+    var navOffset = $('.nav').offset();//在文档中的高度
     console.log(navOffset);
 
     $(window).scroll(function(){
@@ -8,9 +8,11 @@ $(document).ready(function(){
 
         if(scrollOffset>navOffset.top){
             console.log(scrollOffset);
-            $('nav').addClass('navFixed');
+            $('.nav').addClass('navFixed');
+            $('.nav1').css('display','block');
         }else{
-            $('nav').removeClass('navFixed');
+            $('.nav').removeClass('navFixed');
+            $('.nav1').css('display','none');
         }
         
     })
