@@ -2,5 +2,5 @@
 个人网站
 ===============================
  
-[网址]mokbnna.github.com)。
+([网址]mokbnna.github.com)。
 
